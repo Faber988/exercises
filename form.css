@@ -1,0 +1,51 @@
+.containerForm {
+    width: 600px;
+  
+
+}
+
+form {
+ 
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px;
+   font-size: 20px;
+    border: 2px solid rgb(98, 231, 149);
+    
+}
+
+input[type=text] {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 20px 20px 10px;
+    border-color: rgb(98, 231, 149);
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+input[type=submit] {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 20px 20px 10px;
+    border: 2px solid rgb(98, 231, 149);
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: white;;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(98, 231, 149);
+}
+
+  .rosso {
+    color : red
+  }
